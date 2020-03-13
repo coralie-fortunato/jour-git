@@ -1,0 +1,56 @@
+/*globlal*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*globlal*/
+
+body{
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 50px; 
+    border: 2px solid rgb(200, 200, 200);
+    border-collapse: collapse;
+    
+    
+   
+}
+
+tr
+{
+    width: 50%;
+    text-align: center;
+    height: 50px;  
+
+}
+
+tr:nth-child(even){
+    background-color:#CFD8DC ;
+}
+
+tr:nth-child(odd){
+    background-color:#B0BEC5 ;
+
+}
+
+
+td
+{
+    width: 50%;
+    border: 1px solid rgb(190, 190, 190);
+    
+}
+
+p{
+    text-align: center;
+    color:#607D8B;
+    font-size: larger;
+    background-color: grey;
+
+}
